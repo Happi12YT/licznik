@@ -246,3 +246,12 @@ body {
   font-size: 20px;
   margin-top: 10px;
 }
+.odliczanie-kolumna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
+  margin: 0 auto;
+  }
