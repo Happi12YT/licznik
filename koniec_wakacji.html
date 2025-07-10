@@ -47,6 +47,27 @@
   </footer>
 
 <script>
+    function toggleMenu() {
+      document.getElementById('menuContainer').classList.toggle('active');
+    }
+    function scrollToTimer() {
+      document.querySelector('.countdown-box')
+              .scrollIntoView({ behavior: 'smooth' });
+    }
+    function updateCountdown() {
+      const now = new Date();
+      const target = new Date();
+      target.setHours(22, 0, 0, 0);
+      if (now > target) target.setDate(target.getDate() + 1);
+      const diff = target - now;
+      const hrs = Math.floor(diff / 1000 / 60 / 60);
+      const mins = Math.floor((diff / 1000 / 60) % 60);
+      const secs = Math.floor((diff / 1000) % 60);
+      document.getElementById('countdown').textContent =
+        `${hrs}h ${mins}m ${secs}s`;
+    }
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
 const end = new Date("2025-09-01T00:00:00");
 const start = new Date("2025-07-01T00:00:00");
 const total = end - start;
