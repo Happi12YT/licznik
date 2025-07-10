@@ -247,19 +247,22 @@ body {
   margin-top: 10px;
 }
 /* ODLICZANIE PIONOWE */
+./* ODLICZANIE PIONOWE - WYŚRODKOWANE */
 .odliczanie-kolumna {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
   gap: 25px;
   margin: 0 auto;
+  text-align: center;
 }
+
 .odliczanie-kolumna div {
   font-size: 18px;
   font-weight: 600;
 }
+
 .odliczanie-kolumna span {
   display: block;
   font-size: 48px;
