@@ -217,3 +217,32 @@ body {
   font-size: 14px;
   color: #555;
 }
+.wakacje-odliczanie h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.odliczanie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.blok {
+  font-size: 18px;
+  font-weight: 600;
+}
+.blok span {
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #333;
+}
+
+.tekst-dolny {
+  font-size: 20px;
+  margin-top: 10px;
+}
