@@ -297,6 +297,8 @@ body {
 .logo-box {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  height: 66px;
   padding: 8px 20px;
   background: rgba(255,255,255,0.85);
   backdrop-filter: blur(6px);
@@ -309,6 +311,7 @@ body {
   margin-right: 10px;
   border-radius: 6px;
   display: block;
+  vertical-align: middle;
 }
 
 .logo-box span {
@@ -316,4 +319,5 @@ body {
   font-weight: 600;
   color: #0077cc;
   line-height: 1;
+  vertical-align: middle;
 }
