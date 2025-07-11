@@ -10,26 +10,27 @@
 <body>
 
   <!-- NAVBAR -->
-  <a href="/strona-glowna" class="logo-logo">
   <nav class="navbar">
-    <div class="logo-box">
+  <div class="logo-box">
+    <a href="/" class="logo-logo">
       <img src="https://happi12yt.github.io/strona-glowna/Nowy%20projekt_1751898655372.png" alt="Logo Happi12"/>
-      <span>Happi12</span>
+    </a>
+    <span>Happi12</span>
+  </div>
+  <div class="menu-container" id="menuContainer">
+    <div class="menu-button" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
     </div>
-    <div class="menu-container" id="menuContainer">
-      <div class="menu-button" onclick="toggleMenu()">
-        <span></span><span></span><span></span>
-      </div>
-      <div class="menu-panel">
-        <div class="close" onclick="toggleMenu()">×</div>
-        <ul>
-          <li><a href="#start">Start</a></li>
-          <li><a href="#wakacje">Wakacje</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
-      </div>
+    <div class="menu-panel">
+      <div class="close" onclick="toggleMenu()">×</div>
+      <ul>
+        <li><a href="#start">Start</a></li>
+        <li><a href="#wakacje">Wakacje</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <!-- COUNTDOWN -->
   <div class="countdown-box">
