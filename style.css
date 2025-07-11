@@ -292,8 +292,10 @@ body {
   text-align: center;
 }
 .logo-logo {
-  text-decoration: none;
+  display: inline-block;
+  height: 50px;
 }
+
 .logo-box {
   display: flex;
   align-items: center;
