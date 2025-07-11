@@ -261,31 +261,33 @@ body {
 }
 
 /* ODLICZANIE PIONOWE WYŚRODKOWANE */
+/* LICZNIK - OSTATECZNA WERSJA */
 .odliczanie-kolumna {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 12px; /* ZMNIEJSZAMY! */
+  gap: 6px; /* Bardzo mały odstęp między elementami */
   margin: 0 auto;
   text-align: center;
 }
 
 .odliczanie-kolumna div {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
-  line-height: 1.1;
+  line-height: 1;
 }
 
 .odliczanie-kolumna span {
   display: block;
-  font-size: 38px;
+  font-size: 32px;
   font-weight: 700;
   color: #333;
-  margin-bottom: 0; /* ODSTĘP POMIĘDZY LICZBĄ A NAPISEM */
+  margin-bottom: 0;
 }
+
 .tekst-procent {
-  font-size: 16px;
-  margin-top: 0px;
+  font-size: 14px;
+  margin-top: 8px;
   text-align: center;
 }
