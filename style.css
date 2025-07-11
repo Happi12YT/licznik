@@ -247,7 +247,7 @@ body {
   margin-top: 10px;
 }
 /* ODLICZANIE PIONOWE */
-./* ODLICZANIE PIONOWE - WYŚRODKOWANE */
+/* ODLICZANIE PIONOWE - WYŚRODKOWANE */
 .odliczanie-kolumna {
   display: flex;
   flex-direction: column;
