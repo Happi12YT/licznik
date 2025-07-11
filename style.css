@@ -226,7 +226,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   justify-content: center;
 }
 
