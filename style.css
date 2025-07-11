@@ -276,3 +276,40 @@ body {
   margin-top: 15px;
   text-align: center;
 }
+/* WAKACJE ODLICZANIE */
+.wakacje-odliczanie {
+  text-align: center;
+  padding: 100px 20px;
+  background: #ffffff;
+  color: #0077cc;
+}
+
+/* ODLICZANIE PIONOWE WYŚRODKOWANE */
+.odliczanie-kolumna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.odliczanie-kolumna div {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.odliczanie-kolumna span {
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.tekst-procent {
+  font-size: 20px;
+  margin-top: 15px;
+  text-align: center;
+  }
