@@ -290,26 +290,26 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+  gap: 15px;
   margin: 0 auto;
   text-align: center;
 }
 
 .odliczanie-kolumna div {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
+  line-height: 1.2;
 }
 
 .odliczanie-kolumna span {
   display: block;
-  font-size: 26px;
+  font-size: 38px;
   font-weight: 700;
   color: #333;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
-
 .tekst-procent {
-  font-size: 20px;
-  margin-top: 15px;
+  font-size: 16px;
+  margin-top: 10px;
   text-align: center;
-  }
+}
